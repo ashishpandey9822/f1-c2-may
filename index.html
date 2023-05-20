@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library System</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <!-- nav bar links -->
+    <div class="container">
+      <div>
+        <nav>
+          <div class="Left-Side">
+            <h3>Library System</h3>
+          <div class="nav-links">
+            <a href="#">Books</a>
+            <a href="#">Register</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Logout</a>
+            </nav>
+      </div>
+    </div>
+    <!-- Books Table -->
+    <div class="books-container">
+      <h2>Books</h2>
+      <br>
+      <table>
+        <thead>
+          <tr>
+            <th>Book Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              <u>Book 1</u>
+              <br />
+              Publication date:2000
+              <br />
+              Page Count:250
+              <br />
+              ISBN:123-4567890123
+            </td>
+            <td>Author Name 1</td>
+            <td>Genre 1</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <u>Book 2</u>
+              <br/>
+              Publication date:2005
+              <br />
+              Page Count:300
+              <br />
+              ISBN:123-4567890456
+            </td>
+            <td>Author Name 2</td>
+            <td>Genre 2</td>
+            <td>Not Available</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <u>Book 3</u>
+              <br />
+              Publication date:2010
+              <br />
+              Page Count:350
+              <br />
+              ISBN:123-4567890789
+            </td>
+            <td>Author Name 3</td>
+            <td>Genre 3</td>
+            <td>Available</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Register Form -->
+    <h2> Register</h2>
+    <br>
+    <form>
+        <label for="first name">First Name:</label><br>
+        <input type="text" id="first name" required><br>
+        <br>
+        <label for="last name">Last Name:</label><br>
+        <input type="text" id="last name" required><br>
+        <br>
+        <label for="date of birth">Date Of Birth:</label><br>
+        <input type="date" id="date-of-birth" required><br>
+        <br>
+        <label for="age">Age:</label><br>
+        <input type="num" id="age" min size="5" max size="100" required><br>
+        <br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" required><br>
+        <br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" required><br>
+        <br>
+        <label for=" confirm password">Confirm Password:</label><br>
+        <input type="confirm password" id="confirm password" required><br>
+        <br>
+        <button>Register</button>
+    </form>
+  </body>
+</html>
