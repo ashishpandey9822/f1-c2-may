@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-nav{
+/* nav{
  position: sticky;  
  width: 100%;
- height: 16px;
+ height: 50px;
  display: flex; 
+ background-color:#000;
 }
 .Left-Side > h3
 {
@@ -16,20 +18,57 @@ nav{
     font: size 36px;
     margin-bottom: 20px;
 }
-.nav-links{
+.nav-links {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: inline;
     text-decoration: none;
     font-size: 16px;
     align-items:flex-end;
     justify-content: space-between;
-
+}
+a{
+    color: #fff
 }
 .books-container > h2{
     margin: ;
-}
+} */
+navbar{
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* .navbar-logo {
+    width: 350px;
+  } */
+  
+  .navbar-items {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 27px;
+    padding: 20px;
+    
+  }
+  
+  .navbar-items li {
+    margin-left: 50px;
+  }
+
+  a{
+    color:#000;
+    text-decoration: none;
+    
+  }
 table,th,td{
     border-collapse: collapse;
     border: 2px solid black;
@@ -38,3 +77,19 @@ table,th,td{
     width: 50%;
     height: 20%;
 }
+h2{
+    margin: 1rem;
+}
+form {
+    margin: 1rem;
+    }
+    input{
+        width: 100%;
+        height: 25px;
+    }
+    button{
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+        height: 40px;
+    }

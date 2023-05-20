@@ -8,24 +8,41 @@
     <link rel="stylesheet" href="Style.css" />
   </head>
   <body>
-    <!-- nav bar links -->
+    <!-- nav bar links
     <div class="container">
       <div>
         <nav>
           <div class="Left-Side">
             <h3>Library System</h3>
-          <div class="nav-links">
-            <a href="#">Books</a>
-            <a href="#">Register</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Logout</a>
-            </nav>
+            <ul class="nav-links">
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Register</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </div>
+    </div> -->
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <!-- <div class="navbar-logo"> -->
+          <h2>Library System</h2>
+        
+  
+        <!-- Navbar Links -->
+  
+        <ul class="navbar-items">
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </nav>
     <!-- Books Table -->
     <div class="books-container">
       <h2>Books</h2>
-      <br>
+      <br />
       <table>
         <thead>
           <tr>
@@ -54,9 +71,9 @@
           </tr>
           <tr>
             <td>2</td>
-            <td>
+            <td id="book-name">
               <u>Book 2</u>
-              <br/>
+              <br />
               Publication date:2005
               <br />
               Page Count:300
@@ -69,7 +86,7 @@
           </tr>
           <tr>
             <td>3</td>
-            <td>
+            <td id="book-name">
               <u>Book 3</u>
               <br />
               Publication date:2010
@@ -86,31 +103,31 @@
       </table>
     </div>
     <!-- Register Form -->
-    <h2> Register</h2>
-    <br>
+    <h2>Register</h2>
+    <br />
     <form>
-        <label for="first name">First Name:</label><br>
-        <input type="text" id="first name" required><br>
-        <br>
-        <label for="last name">Last Name:</label><br>
-        <input type="text" id="last name" required><br>
-        <br>
-        <label for="date of birth">Date Of Birth:</label><br>
-        <input type="date" id="date-of-birth" required><br>
-        <br>
-        <label for="age">Age:</label><br>
-        <input type="num" id="age" min size="5" max size="100" required><br>
-        <br>
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email" required><br>
-        <br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" required><br>
-        <br>
-        <label for=" confirm password">Confirm Password:</label><br>
-        <input type="confirm password" id="confirm password" required><br>
-        <br>
-        <button>Register</button>
+      <label for="first name">First Name:</label><br />
+      <input type="text" id="first name" required /><br />
+      <br />
+      <label for="last name">Last Name:</label><br />
+      <input type="text" id="last name" required /><br />
+      <br />
+      <label for="date of birth">Date Of Birth:</label><br />
+      <input type="date" id="date-of-birth" required /><br />
+      <br />
+      <label for="age">Age:</label><br />
+      <input type="num" id="age" min size="5" max size="100" required /><br />
+      <br />
+      <label for="email">E-mail:</label><br />
+      <input type="email" id="email" required /><br />
+      <br />
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" required /><br />
+      <br />
+      <label for=" confirm password">Confirm Password:</label><br />
+      <input type="confirm password" id="confirm password" required /><br />
+      <br />
+      <button>Register</button>
     </form>
   </body>
 </html>
